@@ -1,0 +1,388 @@
+
+
+#headline {
+    text-align: center;
+    height: 700px;
+    background: url(background1.jpg) center center / cover no-repeat;
+    background-position: center center;
+}
+
+.customnav{
+	background-color: #270000;
+	color:  #ebff00;
+    height: 80px;
+}
+#buttons{
+    float: right;
+}
+
+.search-box{
+	width: 900px;
+	margin: 0 auto;
+
+}
+.search{
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	/*	box-shadow: 6px 6px 15px -4px #ebff00;*/
+}
+#search-txt{
+	background: #fff;
+    width: 440px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+    border: 4px solid #270000;
+    border-left: none;
+}
+
+#search-btn{
+	position: relative;
+	padding-top: 2px;
+	left: -5px;
+    border-radius: 0 25px 25px 0;
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #270000;
+    color: #ebff00;
+    border: 2px solid #270000;
+}
+#search-btn:hover{
+	position: relative;
+	padding-top: 2px;
+	left: -5px;
+    border-radius: 0 25px 25px 0;
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ebff00;
+    color: #270000;
+}
+/*.location-icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding-top: 10px;
+	background-color: white;
+	
+}	
+*/
+
+/*#searchbar{
+	width: 40%;
+	height: 50px;
+}
+#searchbtn{
+	width: 15%;
+	height: 50px;
+	color: #270000;
+	font-size: 25px;
+	border-radius: 20px;
+	padding: 0px;
+
+}
+#searchbtn:hover{
+	width: 15%;
+	height: 50px;
+	color: #ebff00;
+	background-color:  #270000;
+	font-size: 25px;
+	border: none;
+}*/
+.page-footer{
+	background-color: #1a1a1a;
+	color: white;
+	margin-top: 30px;
+	text-decoration: none;
+}
+.page-footer a{
+	color: white;
+}
+.foods{
+	height: 500px;
+	border-radius: 15px;
+	width: 120%;
+}
+
+#navlogo{
+	height: 70px;
+	border-radius: 20px;
+	margin-top: 7px;
+	margin-left: 20px;
+}
+#mainlogo{
+	height: 180px;
+	border-radius: 20px;
+	margin-top: 100px;
+}
+#logoimg{
+	height: 100px;
+	width: auto;
+}
+#content{
+	background: #270000;
+    font-family: 'Oswald', sans-serif;
+}
+.content{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 1.6rem;
+
+}
+
+.jumbotron{
+	background-color: transparent;
+	padding-bottom: 0;
+	/*padding-top: 150px; remove after add logo*/
+}
+#tagline{
+	color: white;
+	font-weight: 700;
+    line-height: 76px;
+    letter-spacing: -0.04ch;
+    text-transform: none;
+    font-family: 'Poppins', sans-serif;
+}
+.signup-btn {
+	margin:20px;
+	height: 40px;
+	border: none;
+	background-color: #ebff00;
+	color: #270000;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 3px;
+	transition: 0.6s;
+}	
+
+.signup-btn:hover{
+	margin:20px;
+	height: 40px;
+	border: none;
+	background-color: #270000 ;
+	color: #ebff00;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 3px;
+}	
+
+.login-btn{
+	margin:20px;
+	height: 40px;
+	border: none;
+	background-color: #270000 ;
+	color: #ebff00;
+	font-size: 20px;
+	border-radius: 3px;
+	font-family: 'Poppins', sans-serif;
+	transition: 0.6s;
+}
+
+.login-btn:hover{
+	margin:20px;
+	height: 40px;
+	border: none;
+	background-color: #ebff00;
+	color: #270000;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+
+}	
+.card{
+	background-color: #270000;
+	color: white;	text-align: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    width: 85%;
+}
+
+#footlogo{
+	height: 130px;
+	border-radius: 20px;
+	margin-bottom: 70px;
+}
+
+.appicon{
+	height: 40px;
+    width: 25%;
+    margin: 10px 0px;
+    transition: 0.5s;
+}
+.appicon:hover{
+	height: 50px;
+    width: 30%;
+    margin: 0px 0px;
+}
+
+
+@media(max-width: 900px)
+{
+	 #tagline{
+		color: white;
+		font-weight: 500;
+	    line-height: 56px;
+	    font-size: 40px;
+	    letter-spacing: -0.04ch;
+	    text-transform: none;
+	}
+
+	.search-box{
+		width: 500px;
+		margin: 0 auto;
+	}
+	.search{
+		position: relative;
+		display: inline-block;
+		font-size: 15px;
+		box-sizing: border-box;
+		transition: 0.5s;
+	}
+	#search-txt{
+		background: #fff;
+	    width: 320px;
+	    height: 50px;
+	    border: none;
+	    outline: none;
+	    padding: 0 25px;
+	    border-radius: 25px 0 0 25px;
+	}
+
+	#search-btn{
+		position: relative;
+		padding-top: 2px;
+		left: -5px;
+	    border-radius: 0 25px 25px 0;
+	    height: 50px;
+	    width: 90px;
+	    border: none;
+	    outline: none;
+	    cursor: pointer;
+	    background: #270000;
+	    color: #ebff00;
+	}
+	#search-btn:hover{
+		position: relative;
+		padding-top: 2px;
+		left: -5px;
+	    border-radius: 0 25px 25px 0;
+	    height: 50px;
+	    width: 90px;
+	    border: none;
+	    outline: none;
+	    cursor: pointer;
+	    background: #ebff00;
+	    color: #270000;
+		
+	}
+}	
+
+/*signup and login*/
+#navID{
+    position:fixed;
+    right: -360px;
+    width: 360px;
+    height: 80%;
+    margin-top: 40px;
+    background-color: #270000;
+    transition: 0.8s ease;
+    color: white;
+}
+#navID.active{
+    right: 0px;
+}
+.sidebar > .side-nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    display: flex;
+}
+
+#sign-up{
+    display: none;
+}
+#sign-up.active{
+    display:block;
+
+}
+#login{
+    display: none;
+}
+#login.active{
+    display: block;
+}
+.loginbox p, .signupbox p{
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    margin-left: 15px;
+}
+.loginbox input, .signupbox input{
+    margin-bottom: 20px;
+    width: 80%;
+}
+.loginbox input[type="Email"], .loginbox input[type="Password"],
+.signupbox input[type="Email"], .signupbox input[type="Password"], .signupbox input[type="text"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    margin:2px 20px;
+}
+.signupbox input[type="checkbox"]{
+    width: 6%;
+    margin-top: 20px;
+}   
+.signupbox span{
+    margin: 10px;
+}
+
+.loginbox input[type="submit"], .signupbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: #ebff00;
+    color: #270000;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 20px 20px;
+    transition: 0.6s;
+}
+.loginbox input[type="submit"]:hover, .signupbox input[type="submit"]:hover{
+    background: #270000;
+    color: #ebff00;
+}
+#close{
+    font-size: 30px;
+    background: none;
+    color: #EBFF00;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 25px;
+}
+#close:hover{
+    font-size: 30px;
+    background:#EBFF00 ;
+    color: #270000;
+    cursor: pointer;
+    border: none;
+    transition: 0.6s;
+}
