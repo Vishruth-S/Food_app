@@ -8,7 +8,7 @@
 }
 
 .customnav{
-	background-color: #270000;
+	background-color: #000000;
 	color:  #ebff00;
     height: 80px;
 }
@@ -37,7 +37,6 @@
     outline: none;
     padding: 0 25px;
     border-radius: 25px 0 0 25px;
-    border: 4px solid #270000;
     border-left: none;
 }
 
@@ -51,9 +50,9 @@
     border: none;
     outline: none;
     cursor: pointer;
-    background: #270000;
+    background: #000000;
     color: #ebff00;
-    border: 2px solid #270000;
+    border: 2px solid #000000;
 }
 #search-btn:hover{
 	position: relative;
@@ -66,7 +65,7 @@
     outline: none;
     cursor: pointer;
     background: #ebff00;
-    color: #270000;
+    color: #000000;
 }
 /*.location-icon{
 	width: 40px;
@@ -85,7 +84,7 @@
 #searchbtn{
 	width: 15%;
 	height: 50px;
-	color: #270000;
+	color: #000000;
 	font-size: 25px;
 	border-radius: 20px;
 	padding: 0px;
@@ -95,7 +94,7 @@
 	width: 15%;
 	height: 50px;
 	color: #ebff00;
-	background-color:  #270000;
+	background-color:  #000000;
 	font-size: 25px;
 	border: none;
 }*/
@@ -130,7 +129,7 @@
 	width: auto;
 }
 #content{
-	background: #270000;
+	background: #000000;
     font-family: 'Oswald', sans-serif;
 }
 .content{
@@ -152,53 +151,33 @@
     text-transform: none;
     font-family: 'Poppins', sans-serif;
 }
-.signup-btn {
+.signup-btn, .login-btn:hover{
 	margin:20px;
 	height: 40px;
 	border: none;
 	background-color: #ebff00;
-	color: #270000;
+	color: #000000;
 	font-size: 20px;
 	font-family: 'Poppins', sans-serif;
 	border-radius: 3px;
 	transition: 0.6s;
 }	
 
-.signup-btn:hover{
-	margin:20px;
-	height: 40px;
-	border: none;
-	background-color: #270000 ;
-	color: #ebff00;
-	font-size: 20px;
-	font-family: 'Poppins', sans-serif;
-	border-radius: 3px;
-}	
 
-.login-btn{
+.login-btn, .signup-btn:hover{
 	margin:20px;
 	height: 40px;
 	border: none;
-	background-color: #270000 ;
+	background-color: #000000 ;
 	color: #ebff00;
 	font-size: 20px;
 	border-radius: 3px;
 	font-family: 'Poppins', sans-serif;
 	transition: 0.6s;
 }
-
-.login-btn:hover{
-	margin:20px;
-	height: 40px;
-	border: none;
-	background-color: #ebff00;
-	color: #270000;
-	font-family: 'Poppins', sans-serif;
-	font-size: 20px;
-
-}	
+	
 .card{
-	background-color: #270000;
+	background-color: #000000;
 	color: white;	text-align: center;
 }
 
@@ -270,7 +249,7 @@ hr {
 	    border: none;
 	    outline: none;
 	    cursor: pointer;
-	    background: #270000;
+	    background: #000000;
 	    color: #ebff00;
 	}
 	#search-btn:hover{
@@ -284,7 +263,7 @@ hr {
 	    outline: none;
 	    cursor: pointer;
 	    background: #ebff00;
-	    color: #270000;
+	    color: #000000;
 		
 	}
 }	
@@ -295,8 +274,7 @@ hr {
     right: -360px;
     width: 360px;
     height: 80%;
-    margin-top: 40px;
-    background-color: #270000;
+    background: rgba(0,0,0,0.55);
     transition: 0.8s ease;
     color: white;
 }
@@ -360,14 +338,14 @@ hr {
     height: 40px;
     font-size: 16px;
     background: #ebff00;
-    color: #270000;
+    color: #000000;
     cursor: pointer;
     border-radius: 20px;
     margin: 20px 20px;
     transition: 0.6s;
 }
 .loginbox input[type="submit"]:hover, .signupbox input[type="submit"]:hover{
-    background: #270000;
+    background: #000000;
     color: #ebff00;
 }
 #close{
@@ -381,7 +359,7 @@ hr {
 #close:hover{
     font-size: 30px;
     background:#EBFF00 ;
-    color: #270000;
+    color: #000000;
     cursor: pointer;
     border: none;
     transition: 0.6s;
