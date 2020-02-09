@@ -1,0 +1,83 @@
+
+.card-text{
+	float: left;
+	font-size: 20px;
+}
+#icon{
+	text-align: end;
+	float: right;
+}
+.fav/*, .fav-unselected*/{
+	cursor: pointer;
+	color: #dc3545;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #dc3545;
+    font-size: 1.1rem;
+    transition: 0.2s;
+}
+.fav:hover/*, .fav-selected*/{
+	cursor: pointer;
+	color: #fff;
+    background-color: #dc3545;
+    border-radius: 5px;
+    border: 1px solid #dc3545;
+    font-size: 1.1rem;
+}
+.card-img-top{
+	height: 250px;
+}
+.hotel-name{
+	font-size: 1.8rem;
+}
+/*veg button*/
+#popular{
+	float: left;
+	padding-left: 8%;
+}
+.veg-toggle{
+	margin-top: 5px;
+	text-align: end;
+	margin-right: 8%;
+}	
+.veg-toggle input{
+	margin-left: 12px;
+	cursor: pointer;
+}
+.veg-toggle p{
+	font-size: 20px;
+}
+.veg-toggle input[type="checkbox"]{
+	position: relative;
+	width: 60px;
+	height: 30px;
+	-webkit-appearance: none;
+	background: #c6c6c6;
+	outline: none;
+	border-radius: 20px;
+	transition: 0.5s;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+}
+.veg-toggle input:checked[type="checkbox"]{
+	background: #ebff00;
+}
+.veg-toggle input[type="checkbox"]:before{
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	top: 0;
+	left: 0;
+	background: #000;
+	transition: 0.5s;
+	transform: scale(1.1);
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+.veg-toggle input:checked[type="checkbox"]:before{
+	left: 30px;
+}
+
+.veg-no{
+	display: none;
+}
