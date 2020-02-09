@@ -13,6 +13,7 @@
 	color: #fff;
 	font-size: 50px;
 	margin-top: 40px;
+	text-shadow: 6px 5px 4px #000;
 }
 .border{
 	width: 100px;
@@ -59,78 +60,29 @@ textarea.contact-form-text{
 	background:  #ebff00;
 	color: #000;
 }
-#navlogo{
-height: 70px;
-border-radius: 20px;
-margin-top: 7px;
-margin-left: 20px;
-}
-.customnav{
-	background-color: #000000;
-	color:  #ebff00;
-    height: 80px;
-    position: fixed;
-    width: 100%;
-}
+
 .login-btn{
     float: right;
-	margin:20px;
-	height: 40px;
-	border: none;
-	background-color: #000000 ;
-	color: #ebff00;
-	font-size: 20px;
-	border-radius: 3px;
-	font-family: 'Poppins', sans-serif;
-	transition: 0.6s;
-	cursor: pointer;
+  margin:20px;
+  height: 40px;
+  border: none;
+  background-color: #000000 ;
+  color: #ebff00;
+  font-size: 20px;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.6s;
+  cursor: pointer;
 }
 .login-btn:hover{
-	margin:20px;
-	height: 40px;
-	border: none;
-	background-color: #ebff00;
-	color: #000000;
-	font-size: 20px;
-	font-family: 'Poppins', sans-serif;
-	border-radius: 3px;
-	transition: 0.6s;
-	cursor: pointer;
-}
-
-.page-footer{
-	background-color: #1a1a1a;
-	color: white;
-	/*margin-top: 30px;*/
-	text-decoration: none;
-}
-.page-footer a{
-	color: white;
-}
-#footlogo{
-	height: 130px;
-	border-radius: 20px;
-	margin-bottom: 70px;
-}
-.appicon{
-	height: 40px;
-    width: 25%;
-    margin: 10px 0px;
-    transition: 0.5s;
-}
-.appicon:hover{
-	height: 50px;
-    width: 30%;
-    margin: 0px 0px;
-}
-hr {
-    border: 0;
-    height: 1px;
-    background: white;
-    width: 85%;
-    margin: auto;
-}
-.page-footer i:hover, .page-footer a:hover{
-	color: #ebff00;
-	text-decoration: none;
+  margin:20px;
+  height: 40px;
+  border: none;
+  background-color: #ebff00;
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 3px;
+  transition: 0.6s;
+  cursor: pointer;
 }
