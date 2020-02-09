@@ -1,0 +1,55 @@
+.customnav{
+  background-color: black;
+  color:  #ebff00;
+    height: 80px;
+    width: 100%;
+}
+
+.page-footer{
+	background-color: #1a1a1a;
+	color: white;
+	margin-top: 0px;
+	text-decoration: none;
+}
+.page-footer #foot-items{
+	margin-top: 30px;
+}
+.page-footer a{
+	color: white;
+}
+#navlogo{
+	height: 70px;
+	border-radius: 20px;
+	margin-top: 7px;
+	margin-left: 20px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    width: 85%;
+    margin: auto;
+
+}
+
+#footlogo{
+	height: 130px;
+	border-radius: 20px;
+	margin-bottom: 70px;
+}
+
+.appicon{
+	height: 40px;
+    width: 25%;
+    margin: 10px 0px;
+    transition: 0.5s;
+}
+.appicon:hover{
+	height: 50px;
+    width: 30%;
+    margin: 0px 0px;
+}
+.page-footer i:hover, .page-footer a:hover{
+	color: #ebff00;
+	text-decoration: none;
+}
