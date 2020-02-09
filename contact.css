@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "montserrat", sans-serif;
+}
+.contact-section{
+	background: url("background.png") no-repeat center;
+	background-size: cover;
+	padding: 40px 0;
+}
+.contact-section h1{
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	margin-top: 40px;
+}
+.border{
+	width: 100px;
+	height: 10px;
+	background: #ebff00;
+	margin: 40px auto;
+}
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+}
+.contact-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: #111;
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+
+}
+.contact-form-text:hover{
+	box-shadow: 0 0 10px 4px #ebff00;
+}
+textarea.contact-form-text{
+	resize: none;
+	height: 120px;
+}
+.contact-form-btn{
+	float: right;
+	border: 0;
+	background: #000;
+	color: #ebff00;
+	padding: 12px 50px;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+.contact-form-btn:hover{
+	background:  #ebff00;
+	color: #000;
+}
+#navlogo{
+height: 70px;
+border-radius: 20px;
+margin-top: 7px;
+margin-left: 20px;
+}
+.customnav{
+	background-color: #000000;
+	color:  #ebff00;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+.login-btn{
+    float: right;
+	margin:20px;
+	height: 40px;
+	border: none;
+	background-color: #000000 ;
+	color: #ebff00;
+	font-size: 20px;
+	border-radius: 3px;
+	font-family: 'Poppins', sans-serif;
+	transition: 0.6s;
+	cursor: pointer;
+}
+.login-btn:hover{
+	margin:20px;
+	height: 40px;
+	border: none;
+	background-color: #ebff00;
+	color: #000000;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 3px;
+	transition: 0.6s;
+	cursor: pointer;
+}
+
+.page-footer{
+	background-color: #1a1a1a;
+	color: white;
+	/*margin-top: 30px;*/
+	text-decoration: none;
+}
+.page-footer a{
+	color: white;
+}
+#footlogo{
+	height: 130px;
+	border-radius: 20px;
+	margin-bottom: 70px;
+}
+.appicon{
+	height: 40px;
+    width: 25%;
+    margin: 10px 0px;
+    transition: 0.5s;
+}
+.appicon:hover{
+	height: 50px;
+    width: 30%;
+    margin: 0px 0px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    width: 85%;
+    margin: auto;
+}
+.page-footer i:hover, .page-footer a:hover{
+	color: #ebff00;
+	text-decoration: none;
+}
