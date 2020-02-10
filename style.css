@@ -154,7 +154,7 @@
 	}
 
 	.search-box{
-		width: 450px;
+		width: 80%;
 		margin: 0 auto;
 	}
 	.search{
@@ -166,7 +166,7 @@
 	}
 	#search-txt{
 		background: #fff;
-	    width: 240px;
+	    width: 57%;
 	    height: 50px;
 	    border: none;
 	    outline: none;
@@ -180,7 +180,7 @@
 		left: -5px;*/
 	    border-radius: 0 25px 25px 0;
 	    height: 50px;
-	    width: 100px;
+	    width: 23%;
 	    border: none;
 	    outline: none;
 	    cursor: pointer;
