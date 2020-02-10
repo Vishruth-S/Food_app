@@ -1,4 +1,3 @@
-
 <html>
   <head>
   <title>Eatssy</title>
@@ -21,10 +20,14 @@
 
 
 <div class="customnav container-fluid">
-  <a href="Eatssy_beta.html">
+  <a href="index.html">
     <img id="navlogo" src="logo.png">
   </a>
+  <a href="hotels.html">  
+    <button class="ml-4 browse-btn">Browse Hotels</button>  
+  </a>
   <span id="buttons">
+  
   <button class="login-btn" onclick="togglelogin()">Login</button>
   <button class="signup-btn" onclick="toggleSign()">Sign up</button>
   </span>
@@ -37,10 +40,12 @@
     <form action="hotels.html">
       <div id="login" class=" loginbox">
       <p>Email</p>
-      <input type="Email" name="" placeholder="example@email.com" required>
+      <input type="Email" name="" placeholder="example@email.com" > <!-- add required -->
       <p>Password</p>
-      <input type="Password" placeholder="Password" required>
-      <a href="hotels.html"><input type="submit" value="Login" name=""></a>  <!-- NOT WORKING -->
+      <input type="Password" placeholder="Password" > <!-- add required -->
+      <a href="hotels.html"><input type="submit" value="Login" name="">
+        <!-- <button>Login</button> -->
+      </a>  <!-- NOT WORKING -->
         </div>
       <div id="sign-up" class="signupbox">
       <p>Name</p>

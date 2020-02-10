@@ -44,9 +44,6 @@ function assignitems(){
 }
 assignitems();
 
-// favbtn.addEventListener("click",function(){
-// 	this.classList.toggle("fav-selected");
-// });
 
 vegbtn.addEventListener("click",function(){
 	if(vegbtn.checked){
@@ -64,6 +61,11 @@ vegbtn.addEventListener("click",function(){
 	}
 });
 
+for(var i=0; i<favbtn.length; i++){
+    favbtn[i].addEventListener("click",function(){
+    this.classList.toggle("fav-selected");
+});
+}    
 
 
 

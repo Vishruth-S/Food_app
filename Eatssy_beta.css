@@ -107,7 +107,7 @@
     font-family: 'Poppins', sans-serif;
     text-shadow: 8px 9px 5px #000;
 }
-.signup-btn, .login-btn:hover{
+.signup-btn, .login-btn:hover, .browse-btn{
 	margin:20px;
 	height: 40px;
 	border: none;
@@ -120,7 +120,7 @@
 }	
 
 
-.login-btn, .signup-btn:hover{
+.login-btn, .signup-btn:hover, .browse-btn:hover{
 	margin:20px;
 	height: 40px;
 	border: none;
@@ -197,7 +197,37 @@
 	    color: #000000;
 		
 	}
+	
+
 }	
+
+@media(max-width: 600px)
+{
+	.signup-btn, .login-btn:hover, .browse-btn{
+	margin:15px;
+	height: 30px;
+	border: none;
+	background-color: #ebff00;
+	color: #000000;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 3px;
+	transition: 0.6s;
+}	
+
+
+.login-btn, .signup-btn:hover, .browse-btn:hover{
+	margin:15px;
+	height: 30px;
+	border: none;
+	background-color: #000000 ;
+	color: #ebff00;
+	font-size: 15px;
+	border-radius: 3px;
+	font-family: 'Poppins', sans-serif;
+	transition: 0.6s;
+}
+}
 
 
 /*signup and login*/

@@ -16,7 +16,7 @@
     font-size: 1.1rem;
     transition: 0.2s;
 }
-.fav:hover/*, .fav-selected*/{
+.fav:hover, .fav-selected{
 	cursor: pointer;
 	color: #fff;
     background-color: #dc3545;
@@ -31,15 +31,7 @@
 	font-size: 1.8rem;
 }
 /*veg button*/
-#popular{
-	float: left;
-	padding-left: 8%;
-}
-.veg-toggle{
-	margin-top: 5px;
-	text-align: end;
-	margin-right: 8%;
-}	
+
 .veg-toggle input{
 	margin-left: 12px;
 	cursor: pointer;
