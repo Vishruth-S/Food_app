@@ -197,7 +197,131 @@
 	    color: #000000;
 		
 	}
-	
+	.signup-btn, .login-btn:hover, .browse-btn{
+	margin:15px;
+	height: 30px;
+	border: none;
+	background-color: #ebff00;
+	color: #000000;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 3px;
+	transition: 0.6s;
+}	
+
+
+.login-btn, .signup-btn:hover, .browse-btn:hover{
+	margin:15px;
+	height: 30px;
+	border: none;
+	background-color: #000000 ;
+	color: #ebff00;
+	font-size: 15px;
+	border-radius: 3px;
+	font-family: 'Poppins', sans-serif;
+	transition: 0.6s;
+}
+
+#navID{
+    position:fixed;
+    right: -360px;
+    width: 360px;
+    height: 80%;
+    background: rgba(0,0,0,0.55);
+    transition: 0.8s ease;
+    color: white;
+}
+#navID.active{
+    right: 0px;
+}
+.sidebar > .side-nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    display: flex;
+}
+
+#sign-up{
+    display: none;
+}
+#sign-up.active{
+    display:block;
+
+}
+#login{
+    display: none;
+}
+#login.active{
+    display: block;
+}
+.loginbox p, .signupbox p{
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    margin-left: 15px;
+}
+.loginbox input, .signupbox input{
+    margin-bottom: 20px;
+    width: 80%;
+}
+.loginbox input[type="Email"], .loginbox input[type="Password"],
+.signupbox input[type="Email"], .signupbox input[type="Password"], .signupbox input[type="text"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    margin:2px 20px;
+}
+.signupbox input[type="checkbox"]{
+    width: 6%;
+    margin-top: 20px;
+}   
+.signupbox span{
+    margin: 10px;
+}
+
+.loginbox input[type="submit"], .signupbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: #ebff00;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 20px;
+    /*margin: 20px 20px;*/
+    transition: 0.6s;
+    margin-top: 0px;
+    background: #000000;
+    color: #ebff00;
+    margin-top: 0;
+}
+.loginbox input[type="submit"]:hover, .signupbox input[type="submit"]:hover{
+    background: #000000;
+    color: #ebff00;
+    margin-top: 0;
+}
+#close{
+    font-size: 30px;
+    background: none;
+    color: #EBFF00;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 25px;
+}
+#close:hover{
+    font-size: 30px;
+    background:#EBFF00 ;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    transition: 0.6s;
+}
 
 }
 
@@ -351,7 +475,7 @@
 	
 
 }	*/
-
+/*
 @media(max-width: 600px)
 {
 	.signup-btn, .login-btn:hover, .browse-btn{
@@ -378,7 +502,7 @@
 	font-family: 'Poppins', sans-serif;
 	transition: 0.6s;
 }
-}
+}*/
 
 
 /*signup and login*/
