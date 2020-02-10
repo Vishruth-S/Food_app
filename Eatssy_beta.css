@@ -200,7 +200,7 @@
 	
 
 }	
-@media(max-width: 350px)
+@media(max-width: 300px)
 {
 	 #tagline{
 		color: white;
@@ -212,23 +212,23 @@
 	}
 
 	.search-box{
-		width: 250px;
+		width: 200px;
 		margin: 0 auto;
 	}
 	.search{
 		position: relative;
 		display: inline-block;
-		font-size: 13px;
+		font-size: 12px;
 		box-sizing: border-box;
 		transition: 0.5s;
 	}
 	#search-txt{
 		background: #fff;
-	    width: 180px;
-	    height: 50px;
+	    width: 150px;
+	    height: 40px;
 	    border: none;
 	    outline: none;
-	    padding: 0 25px;
+	    padding: 0 15px;
 	    border-radius: 25px 0 0 25px;
 	}
 
@@ -237,8 +237,8 @@
 		padding-top: 2px;
 		left: -5px;
 	    border-radius: 0 25px 25px 0;
-	    height: 50px;
-	    width: 70px;
+	    height: 40px;
+	    width: 50px;
 	    border: none;
 	    outline: none;
 	    cursor: pointer;
@@ -250,8 +250,8 @@
 		padding-top: 2px;
 		left: -5px;
 	    border-radius: 0 25px 25px 0;
-	    height: 50px;
-	    width: 70px;
+	    height: 40px;
+	    width: 50px;
 	    border: none;
 	    outline: none;
 	    cursor: pointer;
@@ -259,6 +259,31 @@
 	    color: #000000;
 		
 	}
+	.signup-btn, .login-btn:hover, .browse-btn{
+	margin:13px;
+	height: 25px;
+	border: none;
+	background-color: #ebff00;
+	color: #000000;
+	font-size: 13px;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 3px;
+	transition: 0.6s;
+}	
+
+
+.login-btn, .signup-btn:hover, .browse-btn:hover{
+	margin:13px;
+	height: 25px;
+	border: none;
+	background-color: #000000 ;
+	color: #ebff00;
+	font-size: 13px;
+	border-radius: 3px;
+	font-family: 'Poppins', sans-serif;
+	transition: 0.6s;
+}
+}
 	
 
 }	
