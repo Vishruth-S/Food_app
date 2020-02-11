@@ -1,0 +1,43 @@
+#header{
+	background: URL("backgroundc.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	color: rgba(255,255,255,0.8);
+	justify-content: center;
+	padding-top: 100px;
+}
+
+.find-btn{
+	font-size: 30px;
+}
+
+.card-img-top{
+	height: 200px;
+}
+
+.login-btn{
+    float: right;
+  margin:20px;
+  height: 40px;
+  border: none;
+  background-color: #000000 ;
+  color: #ebff00;
+  font-size: 20px;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.login-btn:hover{
+  margin:20px;
+  height: 40px;
+  border: none;
+  background-color: #ebff00;
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 3px;
+  transition: 0.6s;
+  cursor: pointer;
+}
