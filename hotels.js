@@ -8,12 +8,12 @@ var hotelprice = document.querySelectorAll(".hotel-price");
 var favbtn = document.querySelectorAll(".fav");
 var vegbtn = document.getElementById("veg-only");
 
-var imgs_arr = ["hotel-imgs/mcdonalds.jpg","hotel-imgs/indian1.jpg" , "hotel-imgs/pizzahut.jpg", "hotel-imgs/kerala1.jpg","hotel-imgs/starbucks.jpg","hotel-imgs/mings.jpg","hotel-imgs/icecream.jpg","hotel-imgs/indian2.jpg","hotel-imgs/subway.jpg","hotel-imgs/arabic.jpg","hotel-imgs/baskin.jpg","hotel-imgs/indian3.jpg"];
-var name_arr = ["McDonalds","BTH Sarovaram","Pizza Hut","Gokul Ootupura","Starbucks","Ming's Dumplings","Cold Stone Creamery","Saravana Bhavan","Subway","Zaatar Arabic","Basin Robbins","The Taj"];
-var rating_arr = ["4.5","4.2","4.0","4.7","4.1","4.3","4.2","4.5","4.2","4.0","4.2","4.8"];
-var deltime_arr = ["20 mins","10 mins","30 mins","15 mins","15 mins","20mins","10mins","20mins","10mins","20mins","10mins","20mins"];
-var hotelprice_arr = ["200","200","500","150","400","150","400","200","200","300","250","500"];
-var vegorno_arr = ["0","1","0","1","0","0","1","1","0","0","1","1"];
+var imgs_arr = ["hotel-imgs/mcdonalds.jpg","hotel-imgs/indian1.jpg" , "hotel-imgs/pizzahut.jpg", "hotel-imgs/kerala1.jpg","hotel-imgs/starbucks.jpg","hotel-imgs/mings.jpg","hotel-imgs/icecream.jpg","hotel-imgs/indian2.jpg","hotel-imgs/subway.jpg","hotel-imgs/arabic.jpg","hotel-imgs/baskin.jpg","hotel-imgs/indian3.jpg","hotel-imgs/burger.jpg","hotel-imgs/chaat.jpg","hotel-imgs/shake.jpg"];
+var name_arr = ["McDonalds","Aaryas","Pizza Hut","Gokul Ootupura","Starbucks","Ming's Dumplings","Cold Stone Creamery","Saravana Bhavan","Subway","Zaatar Arabic","Baskin Robbins","The Taj","Burger King","The Chaat street","Keventers Shakes"];
+var rating_arr = ["4.5","4.2","4.0","4.7","4.1","4.3","4.2","4.5","4.2","4.0","4.2","4.8","4.0","4.5","4.8"];
+var deltime_arr = ["20 mins","10 mins","30 mins","15 mins","15 mins","20mins","10mins","20mins","10mins","20mins","10mins","20mins","15mins","10mins","20mins"];
+var hotelprice_arr = ["200","200","500","150","400","150","400","200","200","300","250","500","150","100","400"];
+var vegorno_arr = ["0","1","0","1","0","0","1","1","0","0","1","1","0","1","1"];
 
 function assignitems(){
 	for (var i = 0; i < img.length; i++) {
@@ -38,8 +38,6 @@ function assignitems(){
 	}
 	for (var i = 0; i < vegorno.length; i++) {
 		vegorno[i].value = vegorno_arr[i];
-		console.log(vegorno[i].value);
-		
 	}
 }
 assignitems();
