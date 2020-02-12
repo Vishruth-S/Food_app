@@ -1,4 +1,4 @@
-# Food_app 
+#Front end for a food delivery website
 # EATSSY
-# Beta version release: 08 feb 2020
+# website link: https://vishruth-s.github.io/Food_app/
 
