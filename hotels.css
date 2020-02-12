@@ -7,7 +7,7 @@
 	text-align: end;
 	float: right;
 }
-.fav/*, .fav-unselected*/{
+.fav{
 	cursor: pointer;
 	color: #dc3545;
     background-color: #fff;
